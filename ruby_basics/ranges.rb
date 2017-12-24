@@ -27,7 +27,7 @@ ret = digits.max
 puts "Maximum value is #{ret}"
 
 ret = digits.reject {|i| i < 5}
-puts "Rejected values are #{ret}"
+puts "Accepted values are #{ret}"
 
 digits.each do |digit|
     puts "In Loop #{digit}"
